@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  churn-api:
+    build:
+      context: .
+      dockerfile: Containerfile
+    image: churn-api:latest
+    container_name: churn-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./model:/app/model
+      - ./artifacts:/app/artifacts
+      - ./mlruns:/app/mlruns
+    environment:
+      - APP_ENV=development
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  mlflow:
+    image: python:3.11-slim
+    container_name: mlflow-ui
+    working_dir: /app
+    volumes:
+      - ./mlruns:/app/mlruns
+      - ./requirements.txt:/app/requirements.txt
+    command: >
+      bash -c "pip install --no-cache-dir mlflow==2.15.1 &&
+               mlflow ui --backend-store-uri sqlite:///mlruns/mlflow.db --host 0.0.0.0 --port 5000"
+    ports:
+      - "5000:5000"

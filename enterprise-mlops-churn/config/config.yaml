@@ -1,0 +1,23 @@
+app:
+  name: "Customer Churn Prediction Platform"
+  version: "1.0.0"
+  env: "development"
+
+paths:
+  raw_data: "data/raw/customer_churn.csv"
+  processed_data: "data/processed/customer_churn_processed.csv"
+  model_dir: "model"
+  model_file: "model/customer_churn.pkl"
+  scaler_file: "model/scaler.pkl"
+  artifacts_dir: "artifacts"
+  metrics_file: "artifacts/metrics.json"
+
+training:
+  test_size: 0.2
+  random_state: 42
+  target_column: "Churn"
+  id_column: "customerID"
+
+mlflow:
+  tracking_uri: "sqlite:///mlruns/mlflow.db"
+  experiment_name: "customer-churn-prediction"
