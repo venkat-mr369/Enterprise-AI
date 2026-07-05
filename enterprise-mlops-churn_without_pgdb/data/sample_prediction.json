@@ -1,0 +1,13 @@
+{
+  "gender": "Female",
+  "SeniorCitizen": 0,
+  "Partner": "Yes",
+  "Dependents": "No",
+  "tenure": 5,
+  "InternetService": "Fiber optic",
+  "Contract": "Month-to-month",
+  "PaperlessBilling": "Yes",
+  "PaymentMethod": "Electronic check",
+  "MonthlyCharges": 85.5,
+  "TotalCharges": 427.5
+}

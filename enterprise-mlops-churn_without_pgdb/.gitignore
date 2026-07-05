@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+mlruns/
+model/*.pkl
+artifacts/*.png
+data/processed/*.csv
+.env
+.DS_Store
+*.log
+.dvc/cache
