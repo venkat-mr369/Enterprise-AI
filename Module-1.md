@@ -29,22 +29,6 @@ Technology Stack
 * GCP (later modules)
 
 ---
-
-# Learning Objectives
-
-After completing this module, students will be able to
-
-* Understand AI, ML and Deep Learning
-* Understand enterprise ML lifecycle
-* Explain MLOps
-* Understand why organizations use MLOps
-* Set up development environment
-* Create first Git repository
-* Write first Python program
-* Prepare environment for future labs
-
----
-
 # 1. What is Artificial Intelligence (AI)?
 
 Artificial Intelligence is the science of building systems capable of performing tasks that normally require human intelligence.
