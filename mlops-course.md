@@ -10,74 +10,29 @@
 
 ---
 
-# Module 1: Introduction to Enterprise Machine Learning & MLOps
+## Module 1: Introduction to Enterprise MLOps
+Topics
+ - What is Artificial Intelligence (AI)?
+ - What is Machine Learning (ML)?
+ - What is Deep Learning (DL)?
+ - vs ML vs DL
+ - Types of Machine Learning
+        * Supervised Learning
+        * Unsupervised Learning
+        * Reinforcement Learning
+- Real-world ML Use Cases
+- Enterprise ML Lifecycle
+- Traditional ML vs MLOps
+- What is MLOps?
+- Why Organizations Need MLOps
+- Roles and Responsibilities of an MLOps Engineer
+- Enterprise MLOps Architecture
+- Introduction to the Capstone Project
 
-### Topics
-
-#### Introduction to AI
-
-* Artificial Intelligence (AI)
-* Machine Learning (ML)
-* Deep Learning (DL)
-* Generative AI (Overview)
-
-#### Machine Learning Fundamentals
-
-* What is Machine Learning?
-* What is a Machine Learning Model?
-* Types of Machine Learning
-
-  * Supervised Learning
-  * Unsupervised Learning
-  * Reinforcement Learning
-
-#### How a Machine Learning Model is Built
-
-* Business Problem
-* Data Collection
-* Data Cleaning
-* Feature Engineering
-* Model Training
-* Model Evaluation
-* Model Deployment
-* Monitoring
-* Retraining
-
-#### Enterprise Machine Learning Lifecycle
-
-#### What is MLOps?
-
-#### Traditional ML vs MLOps
-
-#### Why Enterprises Need MLOps
-
-#### Enterprise MLOps Architecture
-
-#### Team Structure
-
-* Business Team
-* Data Engineer
-* Data Scientist
-* ML Engineer
-* MLOps Engineer
-* DevOps Engineer
-* SRE
-
-#### Data Scientist vs ML Engineer vs MLOps Engineer
-
-#### How Data Scientists Worked Before MLOps
-
-#### How MLOps Improves Collaboration
-
-#### Enterprise Project Overview
-
-**Lab**
-
-* Development Environment Setup
-* VS Code
-* Git
-* Python
-* GitHub
+Lab
+- Set up Python development environment
+- Install VS Code
+- Create GitHub repository
 
 ---
 
