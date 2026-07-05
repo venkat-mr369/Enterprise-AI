@@ -12,3 +12,5 @@ data/processed/*.csv
 .DS_Store
 *.log
 .dvc/cache
+database/.env
+database/*.csv

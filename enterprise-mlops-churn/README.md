@@ -99,3 +99,10 @@ mlflow ui --backend-store-uri ./mlruns
 
 ## License
 See `LICENSE`.
+
+## Module 3-A: SQL Data Source (PostgreSQL / RDS)
+
+See [`database/README.md`](database/README.md) for setting up a PostgreSQL
+database (local or Amazon RDS), creating a least-privilege `ml_user`, and
+seeding 1,000 Indian-name customer records for the "SQL Data Sources" topic
+in Module 3.
