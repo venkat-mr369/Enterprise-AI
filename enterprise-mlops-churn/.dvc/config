@@ -1,4 +1,0 @@
-# Placeholder DVC config. Initialize with `dvc init` and add a remote, e.g.:
-#   dvc remote add -d storage gs://your-bucket/dvc-store
-[core]
-    remote = storage
