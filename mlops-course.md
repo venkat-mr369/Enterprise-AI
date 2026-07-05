@@ -15,7 +15,7 @@ Topics
  - What is Artificial Intelligence (AI)?
  - What is Machine Learning (ML)?
  - What is Deep Learning (DL)?
- - vs ML vs DL
+ - AI vs ML vs DL
  - Types of Machine Learning
         * Supervised Learning
         * Unsupervised Learning
@@ -36,22 +36,30 @@ Lab
 
 ---
 
-# Module 2: Python Essentials for MLOps
+## Module 2: Python Essentials for MLOps
 
 ### Topics
 
-* Python Basics
+* Python Fundamentals
+* Variables
+* Data Types
+* Operators
+* Conditional Statements
+* Loops
 * Functions
+* Modules
 * Lists
 * Dictionaries
 * Exception Handling
 * File Handling
+* Virtual Environment
+* Pip
+
+### Libraies
 * NumPy
 * Pandas
 * Matplotlib
 * Working with CSV
-* Virtual Environment
-* pip
 
 **Lab**
 
@@ -59,12 +67,14 @@ Lab
 
 ---
 
-# Module 3: Data Engineering & Feature Engineering
+## Module 3: Data Engineering & ML (Feature) Engineering
 
 ### Topics
 
-* Data Collection
-* Data Validation
+* Understanding Data Sets
+* Data Collection & Data Validation 
+* CSV & JSON
+* SQL Data Sources
 * Data Cleaning
 * Missing Values
 * Duplicate Data
@@ -75,6 +85,7 @@ Lab
 * Feature Selection
 * Train/Test Split
 * Data Pipeline Design
+* Data Pipelines
 
 **Lab**
 
@@ -82,7 +93,7 @@ Lab
 
 ---
 
-# Module 4: Machine Learning for Enterprise
+## Module 4: Machine Learning for Enterprise
 
 ### Topics
 
@@ -163,7 +174,7 @@ Lab
 
 ---
 
-# Module 7: Enterprise Model Deployment & Serving
+## Module 7: Enterprise Model Deployment & Serving
 
 ### Topics
 
@@ -209,7 +220,7 @@ Lab
 
 ---
 
-# Module 9: Kubernetes for MLOps
+## Module 9: Kubernetes for MLOps
 
 ### Topics
 
@@ -235,7 +246,7 @@ Lab
 
 ---
 
-# Module 10: Enterprise Model Serving with KServe
+## Module 10: Enterprise Model Serving with KServe
 
 ### Topics
 
@@ -256,7 +267,7 @@ Lab
 
 ---
 
-# Module 11: CI/CD & GitOps for MLOps
+## Module 11: CI/CD & GitOps for MLOps
 
 ### Topics
 
@@ -278,7 +289,7 @@ GitHub → GitHub Actions → Cloud Build → Artifact Registry → Argo CD → 
 
 ---
 
-# Module 12: Kubeflow
+## Module 12: Kubeflow
 
 ### Topics
 
@@ -299,7 +310,7 @@ GitHub → GitHub Actions → Cloud Build → Artifact Registry → Argo CD → 
 
 ---
 
-# Module 13: AWS MLOps
+## Module 13: AWS MLOps
 
 ### AWS Fundamentals
 
@@ -343,7 +354,7 @@ GitHub → GitHub Actions → Cloud Build → Artifact Registry → Argo CD → 
 
 ---
 
-# Module 14: Monitoring & Observability
+## Module 14: Monitoring & Observability
 
 ### Topics
 
@@ -369,7 +380,7 @@ GitHub → GitHub Actions → Cloud Build → Artifact Registry → Argo CD → 
 
 ---
 
-# Module 15: Enterprise Security & Production Architecture
+## Module 15: Enterprise Security & Production Architecture
 
 ### Topics
 
@@ -390,7 +401,7 @@ GitHub → GitHub Actions → Cloud Build → Artifact Registry → Argo CD → 
 
 ---
 
-# Module 16: Enterprise Capstone Project
+## Module 16: Enterprise Capstone Project
 
 ## Project
 
@@ -438,7 +449,7 @@ Artifact Registry
 Argo CD
       │
       ▼
-Google Kubernetes Engine (GKE)
+Google Kubernetes Engine (GKE) or (AKS) AWS K8S
       │
       ▼
 Ingress Controller
@@ -465,7 +476,7 @@ Data Drift Detection
 Model Retraining
 ```
 
-## Enterprise Tools Covered
+### Enterprise Tools Covered
 
 * Python (Essentials)
 * NumPy
