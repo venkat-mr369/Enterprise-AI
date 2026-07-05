@@ -17,9 +17,11 @@ Topics
  - What is Deep Learning (DL)?
  - AI vs ML vs DL
  - Types of Machine Learning
+   
         * Supervised Learning
         * Unsupervised Learning
         * Reinforcement Learning
+   
 - Real-world ML Use Cases
 - Enterprise ML Lifecycle
 - Traditional ML vs MLOps
